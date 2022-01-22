@@ -1,0 +1,20 @@
+Java Training Notes:
+
+Head First Java (pdf):
+https://www.rcsdk12.org/cms/lib/NY01001156/Centricity/Domain/4951/Head_First_Java_Second_Edition.pdf
+
+To install Java SDK for Linux...
+> use Oracle version of java...not the 'open' version
+> download the 'x64-bit..for Debian' pkg for Ubuntu and Kali Linux distros
+> verify the jdk package was downloaded successfully (check Downloads dir)
+> execute the following commands:
+	sudo dpkg -i [**downloaded filename**]
+	******in case of install problems..******
+	sudo apt --fix-broken install
+	******
+	sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/[**jdk-version**]/bin/java 1
+	sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/[**jdk-version**]/bin/javac 1
+	java --version
+	javac --version
+
+

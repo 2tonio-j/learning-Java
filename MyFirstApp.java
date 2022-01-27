@@ -1,7 +1,7 @@
 public class MyFirstApp {
 	
 	public static void main (String[] args) {
-		system.out.print("I rule the world!!");
+		System.out.print("I rule the world!!");
 	}
 }
 
